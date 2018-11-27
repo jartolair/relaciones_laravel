@@ -26,6 +26,7 @@
           </div>
 
           <div class="links">
+            <a href="{{route('clientes')}}">Clientes</a>
               <a href="{{route('proyectos')}}">Proyectos</a>
 							<a href="{{route('empleados')}}">Empleados</a>
 							<a href="{{route('departamentos')}}">Departamentos</a>

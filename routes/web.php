@@ -17,5 +17,9 @@ Route::get('/proyectos', ['as'=>'proyectos','uses'=>'ProyectoController@index'])
 Route::get('/proyecto/{id}', ['as'=>'proyecto','uses'=>'ProyectoController@get']);
 Route::get('/empleados', ['as'=>'empleados','uses'=>'EmpleadoController@index']);
 Route::get('/empleado/{id}', ['as'=>'empleado','uses'=>'EmpleadoController@get']);
+Route::get('/empleadoForm', ['as'=>'empleado','uses'=>'EmpleadoController@formulario']);
+Route::get('/empleadoInsert', ['as'=>'empleado','uses'=>'EmpleadoController@insert']);
 Route::get('/departamentos', ['as'=>'departamentos','uses'=>'DepartamentoController@index']);
 Route::get('/departamento/{id}', ['as'=>'departamento','uses'=>'DepartamentoController@get']);
+Route::get('/clientes', ['as'=>'clientes','uses'=>'ClienteController@index']);
+Route::get('/cliente/{id}', ['as'=>'cliente','uses'=>'ClienteController@get']);
